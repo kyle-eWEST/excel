@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Jelly Rose Mining</title>
+
+	
+
+	<script>
+
+	if(!localStorage.getItem('counter1'))
+	localStorage1.setItem('counter1',50000);
+
+	document.addEventListener('DOMContentLoaded',()=>{
+		document.querySelector('#count1').innerHTML	= localStorage.getItem('counter1');
+		setInterval(count1,100);
+});
+
+	let counter1 = localStorage.getItem('counter1');
+
+	function count1(){
+		counter1++;
+
+		document.querySelector('#count1').innerHTML = counter1;
+		localStorage.setItem('counter1',counter1);
+	}
+
+</script>
+
+
+
+
+<script>
+
+	if(!localStorage.getItem('counter3'))
+	localStorage.setItem('counter3',2755);
+
+
+	document.addEventListener('DOMContentLoaded',()=>{
+		document.querySelector('#count3').innerHTML	= localStorage.getItem('counter3');
+		setInterval(count3,500);
+});
+
+	let counter3 = localStorage.getItem('counter3');
+
+	function count3(){
+		counter3++;
+
+		document.querySelector('#count3').innerHTML = counter3;
+		localStorage.setItem('counter3',counter3);
+	}
+
+</script>
+
+
+
+
+<script>
+
+	if(!localStorage.getItem('counter5'))
+	localStorage.setItem('counter5',130);
+
+
+	document.addEventListener('DOMContentLoaded',()=>{
+		document.querySelector('#count5').innerHTML	= localStorage.getItem('counter5');
+		setInterval(count5,100);
+});
+
+	let counter5 = localStorage.getItem('counter5');
+
+	function count5(){
+		counter5++;
+
+		document.querySelector('#count5').innerHTML = counter5;
+		localStorage.setItem('counter5',counter3);
+	}
+</script>
+
+
+
+
+<script>
+			
+	document.addEventListener('DOMContentLoaded',()=>{
+		document.querySelector('.learn-more-span').onclick = ()=>{
+
+			let span = document.querySelector('.faq-affiliate-span');
+
+				if(span.style.display === "block"){
+					span.style.display = 'none';
+				}
+
+				else{
+					span.style.display = 'block';
+				}
+			}
+		})
+
+</script>
+
+	<link rel="stylesheet" type="text/css" href="excel.css">
+	<link rel="stylesheet" type="text/css" href="excelanimation.css">
+	<link rel="stylesheet" type="text/css" href="excel@media.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<header class="header">
+		<div class="logo">
+			<img src="BTC.png">
+		</div>
+
+		<div class="header-link">
+			<span class="header-span">
+				<a href="#" style='color:#fff;' class="fa fa-bitcoin"></a>
+				<a href="#" class="log">Login</a>
+			</span>
+		</div>
+
+<!-- svg
+		<svg width="30" height="25">
+			<path d="M0,5 30,5" stroke="#b30047" stroke-width="3"/>
+			<path d="M0,14 30,14" stroke="#b30047" stroke-width="3"/>
+			<path d="M0,23 30,23" stroke="#b30047" stroke-width="3"/>
+		</svg>
+-->
+
+	</header>
+
+
+
+	<div class="showcase1">
+		<div class="rgba">
+			<h2>Start Mining Now!</h2>
+
+			<p class="jelly-p">Jelly Rose Mining provides Bitcoin & Altcoin cloud mining at unbeatable prices! All our contracts feature the lowest maintenance fees, instant <br> hardware setup, and responsive support. New users receive 50 GH/s towards their SHA-256 mining during our launch phase.</p>
+
+			<div class="drop-div">
+				<a href="#" class="get-started-link">Get Started</a>
+
+				<span class="learn-more-span">
+					<p class="learn-more-p">Learn More <b>>></b></p>
+					<span class="faq-affiliate-span">
+						<a href="#" class="faq">FAQ</a>
+						<a href="#" class="affiliate">Affiliate</a>
+					</span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="number1-div">
+		<div class="top-div-number1">
+			<h1><span id="count1">50,000</span>+</h1>
+			<h4>Happy Investors</h4>
+		</div>
+
+		<div>
+			<h1>~<span id="count3">2,755</span></h1>
+			<h4>Active Mining Units</h4>
+		</div>
+
+		<div>
+			<h1>$<span id="count5">130</span>k+</h1>
+			<h4>Total Mined By Investors</h4>
+		</div>
+	</div>
+
+
+	<div class="what-we-offer-div">
+			<h3>OUR SERVICES</h3>
+			<h1>What Do We Offer?</h1>
+			<h2></h2>
+
+		<div>
+			<div class="inner-div left left-wide">
+				<a href="#" class="fas fa-coins"></a>
+				<h4>Bitcoin & Altcoin Mining</h4>
+				<p>Our mining services do not stop at Bitcoin. We <br> also offer mining in Ethereum, Monero, <br> Litecoin, Dash, and ZCash.</p>
+			</div>
+
+			<div class="inner-div right down">
+				<a href="#" class="fas fa-warehouse"></a>
+				<h4>Unbeatable Price</h4>
+				<p>Our prices are 65% lower than other major <br> cloud mining providers. No cloud mining service <br> comes close to our contract pricing.</p>
+			</div>
+
+			<div class="inner-div left right-wide">
+				<a href="#" class="far fa-check-circle"></a>
+				<h4>Already Running Hardware</h4>
+				<p>Don't waste your time building rigs or waiting <br> for parts to arrive... We can provide this all for <br> you instantly and professionally setup.</p>
+			</div>
+
+			<div class="inner-div right left-wide">
+				<a href="#" class="fa fa-money"></a>
+				<h4>Low Maintenance Fees</h4>
+				<p>With our hardware optimization and optimal <br> cooling efficiency we achieve incredible results <br> with very little energy needed in the process.</p>
+			</div>
+
+			<div class="inner-div left down">
+				<a href="#" class="material-icons">timer</a>
+				<h4>Daily Mining Payouts</h4>
+				<p>Mining payouts are processed every 24 hours <br> of  continues mining. Maintenance fees are <br> automatically deducted from payouts daily.</p>
+			</div>
+
+			<div class="inner-div right right-wide">
+				<a href="#" class="material-icons">cloud_done</a>
+				<h4>99.9% Uptime Guarantee</h4>
+				<p>We can all agree downtime is the worst! That is <br> why we have round the clock maintained <br> facilities and fail-safes!</p>
+			</div>
+
+		</div> 
+	</div>
+
+	<div class="why-div">
+		<h1>Why Choose Us?</h1>
+		<p>We work every day and create new innovative products to meet your biggest and most complex requirements while offering the most flexible and cost-competitive solutions.</p>
+
+		<h4><a href="#" class="far fa-check-circle"></a> Low-cost, High-Performance</h4>
+		<h4><a href="#" class="far fa-check-circle"></a> Lowest Maintenance Fees</h4>
+		<h4><a href="#" class="far fa-check-circle"></a> No Hardware To Setup</h4>
+		<h4><a href="#" class="far fa-check-circle"></a> Higher Net From Mining Payouts</h4>
+		<h4><a href="#" class="far fa-check-circle"></a> Multiple Mining Algorithms</h4>
+		<h4><a href="#" class="far fa-check-circle"></a> Instant Activation</h4>
+		<h4><a href="#" class="far fa-check-circle"></a> High Transparency With Customers</h4>
+	</div>
+
+
+
+	<div class="img1">
+		<img src="BTCs.png">
+	</div>
+
+
+	<div class="run-on-main-grid">
+		<div class="run-on-inner-div left left-wide">
+			<div class="fa-div">
+				<a href="#" class="fa fa-bitcoin"></a>
+			</div>
+			<div class="h4-p">
+				<h4>Run on Bitcoin Energy</h4>
+				<p>Bitcoin mining has bad effects on our enviroment, <br> that's why we use wind & geothermal energy <br> sources.</p>
+			</div>
+		</div>
+
+		<div class="run-on-inner-div right down">
+			<div class="fa-div">
+				<a href="#" class="fab fa-ethereum"></a>
+			</div>
+			<div class="h4-p">
+				<h4>Run on Ethereum Energy</h4>
+				<p>Ethereum mining has bad effects on our enviroment, <br> that's why we use wind & geothermal energy <br> sources.</p>
+			</div>
+		</div>
+
+		<div class="run-on-inner-div left right-wide">
+			<div class="fa-div">
+				<a href="#" class="fa fa-cc-paypal"></a>
+			</div>
+			<div class="h4-p">
+				<h4>Sponsored by paypal</h4>
+				<p>Cryptocurrency mining has bad effects on our enviroment, <br> that's why we use wind & geothermal energy <br> sources.</p>
+			</div>
+		</div>
+
+		<div class="run-on-inner-div right left-wide">
+			<div class="fa-div">
+				<a href="#" class="fa fa-cc-visa"></a>
+			</div>
+			<div class="h4-p">
+				<h4>Sponsored by Visa</h4>
+				<p>Cryptocurrency mining has bad effects on our enviroment, <br> that's why we use wind & geothermal energy <br> sources.</p>
+			</div>
+		</div>
+
+		<div class="run-on-inner-div left down">
+			<div class="fa-div">
+				<a href="#" class="fa fa-apple"></a>
+			</div>
+			<div class="h4-p">
+				<h4>Run on Apple Energy</h4>
+				<p>Cryptocurrency mining has bad effects on our enviroment, <br> that's why we use wind & geothermal energy <br> sources.</p>
+			</div>
+		</div>
+
+		<div class="run-on-inner-div right right-wide">
+			<div class="fa-div">
+				<a href="#" class="fa fa-android"></a>
+			</div>
+			<div class="h4-p">
+				<h4>Run on Android Energy</h4>
+				<p>Bitcoin mining has bad effects on our enviroment, <br> that's why we use wind & geothermal energy <br> sources.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="showcase1-grid">
+		<div class="main-rgba">
+			<div class="limited-rgba">
+				<div class="limited-div">
+					<h3>Limited Time Free 50 GH/s!</h3>
+					<p>During our launch phase new users receive 50 GH/s towards their SHA-256 cloud mining.</p>
+				</div>
+
+				<div class="sign-link-div">
+					<a href="#">Sign Up Now!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="testimonials-div">
+		<p class="testimonial-p">Testimonials</p>
+		<h1>Loved by individuals, and businesses across the globe.</h1>
+		<p class="Just-p">Just a few of our many reviews and testimonials.</p>
+
+		<a href="#" class="more">More Testimonials</a>
+	</div>
+
+	<!-- curosal bootstrap 
+		<div class="curosal-bootstrap1">
+			
+		</div>
+		-->
+
+		<p class="we-p">We partner with companies of all sizes, all around the world.</p>
+
+		<!-- curosal bootstrap2 
+		<div class="curosal-bootstrap2">
+			
+		</div>
+		-->
+
+<!-- please vote for "jelly rose mining" needs to be off the same colour of Logo -->
+		<p class="please-p"><span class="please-span">Please Vote</span> for Jelly Rose Mining at HYIPLogs.com</p>
+
+
+		<footer class="footer1">
+			<div class="logo-p-div border">
+				<h3>Jelly Rose Mining</h3>
+				<p>Stay up to date with Jelly Rose Mining activities</p>
+
+				<div class="footer-link-div">
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+				</div>
+			</div>
+
+			<div class="legal-div border">
+				<h3>Legal</h3>
+				<p>Privacy Policy <br> Terms of Usage <br> Terms of Service</p>
+			</div>
+
+			<div class="dashboard-div border">
+				<h3>Dashboard</h3>
+				<p>Changelogs <br> Login/Sign Up <br> Forgot Password?</p>
+			</div>
+
+			<div class="info-div border">
+				<h3>Information</h3>
+				<p>Company #SC658092 <br> 59 Charles St, Glasgow G21 2PR, Lagos state, Nigeria <br> contact@jelly-rose-mining.io</p>
+			</div>
+			
+		</footer>
+
+		<footer class="footer2">
+			<div class="secure-img-div">
+				<div class="secure-img-inner-div">
+					<img src="BTC.png">
+				</div>
+			</div>
+
+			<div class="footer2-grid">
+				<div class="reserved-div">
+					<p>&copy 2020 Jelly Rose Mining Ltd. All Rights Reserved.</p>
+				</div>
+
+				<div class="system-main-div">
+					<div class="system-div">
+						<h1></h1>
+						<p class="all-system">All System Are Operational</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+</body>
+</html>

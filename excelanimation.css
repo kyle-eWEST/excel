@@ -1,0 +1,213 @@
+
+
+.header-span .fa-bitcoin{
+	animation:bitcoin 4s 2s infinite;
+}
+
+@keyframes bitcoin{
+	0%{
+		color:#fff;
+	}
+	50%{
+		color:#ffaa00;
+	}
+	100%{
+		color:#fff;
+	}
+}
+
+.header-span .log{
+	animation:log 4s 2s infinite;
+}
+
+@keyframes log{
+	0%{
+		color:#ffaa00;
+	}
+	50%{
+		color:#fff;
+	}
+	100%{
+		color:#ffaa00;
+	}
+}
+
+
+/*showcase1*/
+.rgba h2{
+	animation:start 4s ease-in 1;
+
+} 
+
+
+
+@keyframes start{
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+
+
+.rgba .jelly-p{
+	animation:jelly-p 4s ease-in 1;
+
+} 
+
+@keyframes jelly-p{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+
+
+.drop-div{
+	animation:drop-div 4s ease-in 1;
+
+} 
+
+@keyframes drop-div{
+	0%{
+		opacity:0;
+	}
+	100%{
+	 	opacity: 1;
+	}
+}
+
+
+
+
+/* what-we-offer-div */
+.what-we-offer-div h1,
+.what-we-offer-div h2,
+.what-we-offer-div h3{
+	animation:what 3s ease-in 1;
+}
+
+@keyframes what{
+	0%{
+		transform: translateY(-50px);
+		opacity: 0;
+		overflow: hidden;
+	}
+	
+	100%{
+		transform: translateY(0);
+		overflow: visible;
+		opacity: 1;
+	}
+}
+
+
+/*why-div*/
+.why-div{
+	animation:why-div 3s ease-in 1;
+}
+@keyframes why-div {
+	0%{
+		transform: translateY(100px);
+		opacity: 0;
+		overflow: hidden;
+	}
+	
+	100%{
+		transform: translateY(0);
+		overflow: visible;
+		opacity: 1;
+	}
+}
+
+
+	/*number1-div*/
+.number1-div{
+	animation:number-div 3s ease-in 1;
+}
+@keyframes number-div {
+	0%{
+		transform: translateX(80%);
+		opacity: 0;
+		overflow: hidden;
+	}
+	
+	100%{
+		transform: translateX(0);
+		overflow: visible;
+		opacity: 1;
+	}
+}
+
+
+
+@media (max-width: 760px){
+
+	.left{
+	animation:left 3s ease-in 1;
+}
+
+@keyframes left {
+	0%{
+		transform: translateX(-120%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+
+.right {
+	animation:right 3s ease-in 1;
+}
+
+@keyframes right {
+	0%{
+		transform: translateX(120%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+
+/*why-div*/
+.why-div{
+	animation:why-div 3s ease-in 1;
+}
+@keyframes why-div {
+	0%{
+		transform: translateY(100px);
+		opacity: 0;
+		overflow: hidden;
+	}
+	
+	100%{
+		transform: translateY(0);
+		overflow: visible;
+		opacity: 1;
+	}
+}
+
+
+/*img1*/
+.img1{
+	animation:img1 3s ease-in 1;
+}
+
+@keyframes img1 {
+	0%{
+		transform: translateX(-400%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+
+}

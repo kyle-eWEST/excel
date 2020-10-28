@@ -67,7 +67,7 @@
 
 	<div class="number1-div">
 		<div class="top-div-number1">
-			<h1><span id="count1">50,000</span>+</h1>
+			<h1><span id="count7">50,000</span>+</h1>
 			<h4>Happy Investors</h4>
 		</div>
 
@@ -305,21 +305,21 @@
 	
 	<script>
 
-	if(!localStorage.getItem('counter1'))
-	localStorage1.setItem('counter1',50000);
+	if(!localStorage.getItem('counter7'))
+	localStorage1.setItem('counter7',50000);
 
 	document.addEventListener('DOMContentLoaded',()=>{
-		document.querySelector('#count1').innerHTML	= localStorage.getItem('counter1');
-		setInterval(count1,100);
+		document.querySelector('#count1').innerHTML	= localStorage.getItem('counter7');
+		setInterval(count7,100);
 });
 
-	let counter1 = localStorage.getItem('counter1');
+	let counter7 = localStorage.getItem('counter7');
 
-	function count1(){
-		counter1++;
+	function count7(){
+		counter7++;
 
-		document.querySelector('#count1').innerHTML = counter1;
-		localStorage.setItem('counter1',counter1);
+		document.querySelector('#count7').innerHTML = counter7;
+		localStorage.setItem('counter7',counter7);
 	}
 
 </script>
